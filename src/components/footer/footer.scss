@@ -1,0 +1,21 @@
+@import '../../styles/main.scss';
+
+.footer-container {
+    @include default-text;
+    color: $color-fourth;
+    font-size: 1.2em;
+    padding: {
+        top: 5px;
+        bottom: 5px;
+    }
+    background-color: $color-fifth;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: $color-fourth;
+    }
+}
+
+.footer-item {
+    flex: 100%;
+}

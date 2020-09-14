@@ -1,0 +1,107 @@
+[
+    {
+        "stringCode": "training-activity-none",
+        "value": "Żaden",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "training-activity-gym",
+        "value": "Siłownia",
+        "langCode": "pl_PL"
+    },   
+    {
+        "stringCode": "training-activity-running",
+        "value": "Bieganie",
+        "langCode": "pl_PL"
+    },   
+    {
+        "stringCode": "training-activity-bike",
+        "value": "Rower",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "food-type-none",
+        "value": "Brak",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "food-type-fit",
+        "value": "Zdrowe",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "food-type-unhealthy-salty",
+        "value": "Niezdrowe (wytrawne)",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "food-type-unhealthy-sweet",
+        "value": "Niezdrowe (słodkie)",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "food-type-unhealthy-mix",
+        "value": "Niezdrowe (mieszane)",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "form-type-breakfast",
+        "value": "Śniadanie",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "form-type-lunch",
+        "value": "Obiad",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "form-type-dinner",
+        "value": "Kolacja",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "form-type-snacks",
+        "value": "Przekąski",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "form-type-training",
+        "value": "Trening",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "button-approval-caption",
+        "value": "Czy mogę zjeść słodkie?",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "button-fill-again",
+        "value": "Wypełnij formularz ponownie",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "header-results",
+        "value": "Wynik",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "result-chance",
+        "value": "szans",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "sweetness-chance-caption",
+        "value": "Szansa na wylosowanie słodkiego",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "approved-text",
+        "value": "Możesz zjeść słodkie",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "disapproved-text",
+        "value": "Nie możesz zjeść słodkiego",
+        "langCode": "pl_PL"
+    }
+]

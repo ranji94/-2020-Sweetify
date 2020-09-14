@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Quicksand:wght@300;400&family=Rokkitt:wght@100;400&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100;400;700&display=swap');
 
 @mixin header-text {
-    font-family: 'Russo One', sans-serif;
-    color: $header-text-color;
+    font-family: 'Dancing Script', cursive;
+}
+
+@mixin default-text {
+    font-family: 'Open Sans Condensed', sans-serif;
 }

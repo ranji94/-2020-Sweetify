@@ -1,0 +1,130 @@
+@import '../../styles/main.scss';
+
+.content-container {
+    margin: {
+        left: 25%;
+        right: 25%;
+    }
+
+    h1 {
+        text-align: center;
+        letter-spacing: 2px;
+        user-select: none;
+    }
+}
+
+.header {
+    background-color: $color-third;
+    color: $color-fourth;
+    font-size: 1.5em;
+    text-align: center;
+    user-select: none;
+}
+
+.result-field {
+    display: flex;
+    text-align: center;
+}
+
+.result-item {
+    font-size: 1.4em;
+    flex: 100%;
+    background-color: $color-third;
+    color: $color-fourth;
+    padding: {
+        top: 5px;
+        bottom: 5px;
+    }
+}
+
+.result-item-calculations {
+    flex: 100%;
+    background-color: $color-first;
+    font-size: 1.4em;
+    color: $color-text-default;
+    padding: {
+        top: 8px;
+        bottom: 8px;
+    }
+}
+
+.button-container {
+    text-align: center;
+    margin: {
+        left: 30%;
+        right: 30%;
+        top: 5%;
+        bottom: 5%;
+    }
+}
+
+.result-item-total {
+    flex: 100%;
+    background-color: $color-first;
+    font-size: 1.4em;
+    color: $color-text-default;
+    padding: {
+        top: 8px;
+        bottom: 8px;
+    }
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+@media (max-width: 1000px) {
+    .content-container {
+        margin: {
+            left: 10%;
+            right: 10%;
+        }
+    }
+
+    .button-container {
+        margin: {
+            left: 10%;
+            right: 10%;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .content-container {
+        margin: {
+            left: 0;
+            right: 0;
+        }
+    }
+
+    .button-container {
+        margin: {
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.approved-icon {
+    color: green;
+}
+
+.disapproved-icon {
+    color: red;
+}
+
+.total-result-icon {
+    text-align: center;
+}
+
+.approval-text {
+    font-size: 2em;
+    margin: {
+        top: 3%;
+        bottom: 3%;
+    }
+}

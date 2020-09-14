@@ -1,1 +1,3 @@
 export const SET_LANGCODE = 'SET_LANGCODE'
+export const SET_FORM_STATES = 'SET_FORM_STATES'
+export const SET_FORM_FILLED = 'SET_FORM_FILLED'

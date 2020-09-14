@@ -1,0 +1,22 @@
+@import '../../styles/main.scss';
+
+.button {
+    user-select: none;
+    background-color: $color-fifth;
+    border-radius: 5px;
+    font-size: 25px;
+    color: $color-fourth;
+    padding: {
+        top: 5px;
+        bottom: 5px;
+    }
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    box-shadow: -8px 14px 39px -19px rgba(50,50,50,1);
+}
+
+.button:hover {
+    background-color: #EB5360;
+}
