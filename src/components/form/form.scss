@@ -1,0 +1,61 @@
+@import '../../styles/main.scss';
+
+.content-container {
+    margin: {
+        left: 25%;
+        right: 25%;
+    }
+
+    text-align: center;
+
+    h1 {
+        text-align: center;
+        letter-spacing: 2px;
+        user-select: none;
+    }
+}
+
+.header {
+    background-color: $color-third;
+    color: $color-fourth;
+    font-size: 1.5em;
+    text-align: center;
+    user-select: none;
+}
+
+.form-item {
+    @extend .full-size-item;
+    background-color: $color-first;
+}
+
+.form-container {
+    margin-top: 5%;
+    @extend .flex-container;
+}
+
+.button-container {
+    margin: {
+        left: 30%;
+        right: 30%;
+        top: 5%;
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .content-container {    
+        margin: {
+            left: 10%;
+            right: 10%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .content-container {    
+        margin: {
+            left: 2%;
+            right: 2%;
+        };
+    }
+}

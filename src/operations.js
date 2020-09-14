@@ -1,4 +1,4 @@
-import STRINGS from './resources/strings.json';
+import STRINGS from './resources/data/strings.json';
 
 export function loadText(stringCode, resource) {
     let text = ''
@@ -11,4 +11,8 @@ export function loadText(stringCode, resource) {
     })
 
     return text
+}
+
+export function getRandomBooleanWithProbability(probability) {
+    return probability > Math.random()
 }

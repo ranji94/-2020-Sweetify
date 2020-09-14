@@ -1,7 +1,10 @@
+@import './fonts';
+
 body {
   margin: 0 auto;
-  color: $lead-text-color;
-  background-color: $content-bg-color;
+  color: $color-text-default;
+  background-color: $color-fourth;
+  @include default-text;
 }
 
 html {
