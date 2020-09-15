@@ -1,6 +1,7 @@
 @import '../../styles/main.scss';
 
 .content-container {
+    min-height: 780px;
     margin: {
         left: 25%;
         right: 25%;
@@ -29,7 +30,6 @@
 .result-item {
     font-size: 1.4em;
     flex: 100%;
-    background-color: $color-third;
     color: $color-fourth;
     padding: {
         top: 5px;
@@ -39,12 +39,12 @@
 
 .result-item-calculations {
     flex: 100%;
-    background-color: $color-first;
+    background-color: $color-fourth;
     font-size: 1.4em;
     color: $color-text-default;
     padding: {
-        top: 8px;
-        bottom: 8px;
+        top: 15px;
+        bottom: 15px;
     }
 }
 
@@ -60,12 +60,13 @@
 
 .result-item-total {
     flex: 100%;
-    background-color: $color-first;
-    font-size: 1.4em;
+    background-color: $color-fourth;
+    font-size: 1.8em;
+    font-weight: bold;
     color: $color-text-default;
     padding: {
-        top: 8px;
-        bottom: 8px;
+        top: 15px;
+        bottom: 15px;
     }
 }
 
@@ -127,4 +128,51 @@
         top: 3%;
         bottom: 3%;
     }
+}
+
+.lucky-text {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.buffs-hint {
+    text-align: center;
+    font-size: 1.2em;
+    margin: {
+        top: 5px;
+        bottom: 5px;
+    }
+}
+
+.accordion-container {
+    display: flex;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+.accordion-box {
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    border: 2px solid $color-text-default;
+    background-color: $color-third;
+    color: $color-fourth;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion-box:hover {
+    background-color: $color-third-hover;
+}
+
+.accordion-desc {
+    flex: 95%;
+    text-align: center;
+}
+
+.accordion-icon {
+    @include vertical-align;
+    flex: 5%;
+    text-align: right;
 }

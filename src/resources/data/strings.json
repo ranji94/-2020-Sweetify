@@ -71,7 +71,7 @@
     },
     {
         "stringCode": "button-approval-caption",
-        "value": "Czy mogę zjeść słodkie?",
+        "value": "Czy mogę zjeść słodycze?",
         "langCode": "pl_PL"
     },
     {
@@ -91,17 +91,42 @@
     },
     {
         "stringCode": "sweetness-chance-caption",
-        "value": "Szansa na wylosowanie słodkiego",
+        "value": "Ostateczna szansa na wylosowanie pozwolenia na słodycze wyniosła",
         "langCode": "pl_PL"
     },
     {
         "stringCode": "approved-text",
-        "value": "Możesz zjeść słodkie",
+        "value": "Możesz zjeść słodycze",
         "langCode": "pl_PL"
     },
     {
         "stringCode": "disapproved-text",
-        "value": "Nie możesz zjeść słodkiego",
+        "value": "Nie możesz zjeść słodyczy",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "app-title",
+        "value": "Sweetify | Łatwo kontroluj swoją dietę!",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "app-form-title",
+        "value": "Formularz",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "lucky-approval",
+        "value": "Szczęściarz! Mimo niskich szans udało Ci się wylosować pozwolenie na słodycze!",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "initial-probability",
+        "value": "Szanse startowe na pozwolenie zjedzenia słodyczy wynosiły: ${val}, spożyte przez Ciebie dziś posiłki przyczyniły się do wyniku w niniejszy sposób",
+        "langCode": "pl_PL"
+    },
+    {
+        "stringCode": "show-details-caption",
+        "value": "Pokaż szczegóły",
         "langCode": "pl_PL"
     }
 ]

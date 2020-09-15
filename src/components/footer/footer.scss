@@ -2,6 +2,7 @@
 
 .footer-container {
     @include default-text;
+    flex-shrink: 0;
     color: $color-fourth;
     font-size: 1.2em;
     padding: {
